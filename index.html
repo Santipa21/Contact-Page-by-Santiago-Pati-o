@@ -23,49 +23,49 @@
     </section>
     <!-- Title End -->
     <!-- Form -->
-    <section class="bg-[#CDD5E0] bg-opacity-20 p-10 rounded-3xl max-w-3xl m-auto mb-20" >
+    <section class="bg-[#CDD5E0] bg-opacity-20 p-10 rounded-3xl max-w-3xl m-auto mb-20 sm:max-w-[600px] lg:max-w-3xl" >
         <form class="max-w-3xl mx-auto ">
-            <div class="mb-5 flex justify-evenly">
+            <div class="mb-5 flex justify-evenly flex-wrap ">
                <div>
                 <label for="name" class="block mb-2 text-sm font-normal text-[#fff] dark:text-[#fff] opacity-100">
                     Name</label>
                     
                 <input  type="text" id="name"
-                    class="bg-[#fff] border border-[#fff] text-[#CDD5E0] text-sm rounded-xl focus:ring-[#fff]focus:border-[#fff] block w-80 p-4 dark:bg-[#fff] dark:border-[#fff] dark:placeholder-[#CDD5E0] dark:text-[#CDD5E0] dark:focus:ring-[#fff] dark:focus:border-[#fff]"
+                    class="bg-[#fff] border border-[#fff] text-[#CDD5E0] text-sm rounded-xl focus:ring-[#fff]focus:border-[#fff] block w-80 p-4 dark:bg-[#fff] dark:border-[#fff] dark:placeholder-[#CDD5E0] dark:text-[#CDD5E0] dark:focus:ring-[#fff] dark:focus:border-[#fff] sm:w-[500px] sm:mb-6 lg:w-80 lg:mb-1"
                     placeholder="Ethan Johnson" required>
                </div>
                <div>
                 <label for="email" class="block mb-2 text-sm font-normal text-[#fff] dark:text-[#fff]">Company Email</label>
                     
                 <input type="email" id="email"
-                    class="bg-[#fff] border border-[#fff] text-[#CDD5E0] text-sm rounded-xl focus:ring-[#fff]focus:border-[#fff] block w-80 p-4 dark:bg-[#fff] dark:border-[#fff] dark:placeholder-[#CDD5E0] dark:text-[#CDD5E0] dark:focus:ring-[#fff] dark:focus:border-[#fff]"
+                    class="bg-[#fff] border border-[#fff] text-[#CDD5E0] text-sm rounded-xl focus:ring-[#fff]focus:border-[#fff] block w-80 p-4 dark:bg-[#fff] dark:border-[#fff] dark:placeholder-[#CDD5E0] dark:text-[#CDD5E0] dark:focus:ring-[#fff] dark:focus:border-[#fff] sm:w-[500px] lg:w-80"
                     placeholder="ethan@johnson.com" required>
                </div>
             </div>
-            <div class="mb-5 flex justify-evenly">
+            <div class="mb-5 flex justify-evenly flex-wrap">
                 <div>
                  <label for="company-size" class="block mb-2 text-sm font-normal text-[#fff] dark:text-[#fff] ">Company Size</label>
                      
                  <select id="company-size"
-                     class="bg-[#fff] border border-[#fff] text-[#111729] text-sm rounded-xl focus:ring-[#fff]focus:border-[#fff] block w-80 p-5 dark:bg-[#fff] dark:border-[#fff] dark:placeholder-[#111729] dark:text-[#111729] dark:focus:ring-[#fff] dark:focus:border-[#fff] font-bold"
+                     class="bg-[#fff] border border-[#fff] text-[#111729] text-sm rounded-xl focus:ring-[#fff]focus:border-[#fff] block w-80 p-5 dark:bg-[#fff] dark:border-[#fff] dark:placeholder-[#111729] dark:text-[#111729] dark:focus:ring-[#fff] dark:focus:border-[#fff] font-bold sm:w-[500px] sm:mb-6  lg:w-80 lg:mb-1"
                      ><option value="50-100 employees">50-100 employees</option></select>
                 </div>
                 <div>
                  <label for="subject" class="block mb-2 text-sm font-normal text-[#fff] dark:text-[#fff]">Subject</label>
                      
                  <select id="subject"
-                 class="bg-[#fff] border border-[#fff] text-[#111729] text-sm rounded-xl focus:ring-[#fff]focus:border-[#fff] block w-80 p-5 dark:bg-[#fff] dark:border-[#fff] dark:placeholder-[#111729] dark:text-[#111729] dark:focus:ring-[#fff] dark:focus:border-[#fff] font-bold"
+                 class="bg-[#fff] border border-[#fff] text-[#111729] text-sm rounded-xl focus:ring-[#fff]focus:border-[#fff] block w-80 p-5 dark:bg-[#fff] dark:border-[#fff] dark:placeholder-[#111729] dark:text-[#111729] dark:focus:ring-[#fff] dark:focus:border-[#fff] font-bold sm:w-[500px] lg:w-80"
                  ><option value="Building Landing pages">Building Landing pages</option></select>
                 </div>
              </div>
-             <div class="pl-4 pb-6">
+             <div class="pl-4 pb-6 sm:pl-3 xl:pl-4">
                 <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Message</label>
-             <textarea id="message"  rows="5"  class="bg-[#fff] border border-[#fff] text-[#111729] text-sm rounded-xl focus:ring-[#fff]focus:border-[#fff] block w-[655px] p-6 dark:bg-[#fff] dark:border-[#fff] dark:placeholder-[#111729] dark:text-[#111729] dark:focus:ring-[#fff] dark:focus:border-[#fff] font-bold resize-none	" placeholder="50-100 employees"></textarea>
+             <textarea id="message"  rows="5"  class="bg-[#fff] border border-[#fff] text-[#111729] text-sm rounded-xl focus:ring-[#fff]focus:border-[#fff] block w-[655px] p-6 dark:bg-[#fff] dark:border-[#fff] dark:placeholder-[#111729] dark:text-[#111729] dark:focus:ring-[#fff] dark:focus:border-[#fff] font-bold resize-none	sm:w-[500px] lg:w-[655px] " placeholder="50-100 employees"></textarea>
              </div>
            
            
             <button type="submit"
-                class="text-[#4036A9] bg-[#fff] hover:bg-[#fff] focus:ring-4 focus:outline-none focus:ring-[#fff] font-xl rounded-lg text-xl w-[655px] sm:w-[655px] p-6 text-center dark:bg-[#fff] dark:hover:bg-[#fff] dark:focus:ring-[#fff] font-bold ml-4">Contact Sales</button>
+                class="text-[#4036A9] bg-[#fff] hover:bg-[#fff] focus:ring-4 focus:outline-none focus:ring-[#fff] font-xl rounded-lg text-xl w-[655px] sm:w-[500px] p-6 text-center dark:bg-[#fff] dark:hover:bg-[#fff] dark:focus:ring-[#fff] font-bold ml-4 lg:w-[655px] sm:ml-3 xl:ml-4">Contact Sales</button>
         </form>
     </section>
     <!-- Form End-->
